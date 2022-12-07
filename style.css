@@ -1,0 +1,218 @@
+
+body{
+    margin: 0;
+    font-family: 'PT Sans',sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#navbar{
+    
+    font-size: 14px;
+    background-color: #292D33;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+
+}
+
+
+#navbar a{
+    padding: 30px;
+    text-decoration: none;
+    
+    color: white;
+}
+
+#navbar a:hover{
+    padding: 30px;
+    background-color: rgba(161, 160, 160, 0.349);
+    
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.center {
+    color: #292D33;
+    /* background-color: aquamarine; */
+    float: left;
+    width: 55%;
+    padding: 0px 25px;
+
+}
+
+/* .center, .center1{
+    height: 1000px;
+} */
+
+.center1{
+    margin-left: 20px;
+    color: #FFFFFF;
+    float: left;
+    background-color: #F86449;
+    width: 35%;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+
+
+.dtl{
+    margin-top: 50px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.dtl1 h1, .dtl2 h1{
+    color: #F86449;
+    font-size: 50px;
+}
+
+.dtl1 p, .dtl2 p{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.row{
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+    /* Clear floats after the columns */
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:1260px) {
+
+    .center, .center1 {
+        
+        margin: 0 5%;
+        padding-top: 50px;
+        
+    }
+
+    .center{
+        min-width: 90%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .center1{
+        min-width: 85%;
+    }
+
+    
+}
+
+
+
+.top{
+    
+    text-align: center;
+}
+
+.top h1{
+    font-size: 96px;
+    color: #F86449;
+    margin-bottom: 0px;
+}
+
+.top p{
+    font-size: 24px;
+}
+
+
+
+.center img{
+    width: 100%;
+    /* height: 30rem; */
+    border-radius: 10px;
+}
+.center1 p{
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.center1 h4{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.bottom{
+    background-color: #292D33;
+    padding: 200px;
+}
+
+/* .subbottom{
+    background-image: url('assets/ls2.jpg');
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    background-color: #F86449;
+    text-align: center;
+    padding: 200px;
+} */
+/* 
+.bottom img{
+    height: auto;
+    opacity: 0.6;
+    width: 100%;
+    position: relative;
+}
+
+.bottom p{
+    font-size: 90px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #F86449;
+    position: absolute;
+} */
+
+.bottom p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.upfoot{
+    padding: 100px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.upfoot p{
+    color: #292D33;
+}
+
+.foot{
+    padding: 100px;
+    text-align: center;
+    background-color: #292D33;
+}
+
+.foot p{
+    color: #FFFFFF;
+}
